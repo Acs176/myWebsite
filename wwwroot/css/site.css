@@ -150,3 +150,98 @@ body::before {
     box-shadow: 0px 0 30px rgba(0, 0, 0, 1);
     z-index: 100;
 }
+
+.adrian{
+    min-height: 100%;
+}
+
+.adrian p{
+    margin:0, 0.5em;
+    font-size: clamp(1rem, 2vw,1.7rem) !important;
+}
+
+.adrian .btn {
+    margin-top: 2em;
+    font-size: clamp(1rem, 1.5vw,1.3rem) !important;
+}
+
+.adrian h1{
+    font-size: clamp(2.5rem,4.5vw , 4rem);
+}
+
+.sectionTitle {
+    font-size: clamp(2.5rem,4.5vw, 3.5rem);
+}
+
+
+.uniSection {
+    margin: 0;
+    margin-bottom: 5rem;
+    margin-top: 2rem;
+}
+
+.uniSection h3 {
+    font-size: clamp(1.5rem,3.2vw, 2rem);
+    padding-left: 1rem;
+}
+
+.uniLogoDiv{
+    padding:0;
+    padding-left: 4vw;
+}
+
+.skillImgDiv{
+    height: clamp(5rem, 10vw,7.5rem) !important;
+    width: 10vw;
+}
+
+.skills{
+    padding: 10vw 0;
+}
+
+@media (max-width: 992px){
+
+    .adrian, .laptopDiv{
+        min-height:50vh;
+        max-height: 50vh;
+    }
+
+    .adrian .btn{
+        margin-top: 0px;
+    }
+
+    .adrian .row{
+        margin-top: 0px !important;
+        padding-top: 0px !important;
+    }
+
+    .adrian h1{
+        margin-top: 2%;
+        font-size: 
+    }
+
+    .adrian p{
+        width: 100% !important;
+    }
+
+    .adrian .btn{
+        font-size: 100%;
+    }
+
+    /*Contact me*/
+    #contact .row{
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+    #contact .col-sm-12{
+        margin-right: 0px !important;
+        margin-bottom: 5%;
+    }
+
+    #contact{
+        height: 100% !important;
+    }
+    .titleDiv{
+        margin-bottom: 1rem !important;
+    }
+}
